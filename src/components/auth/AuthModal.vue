@@ -37,7 +37,7 @@
 <script setup>
 import { computed, ref, onMounted } from 'vue';
 import { BaseModal } from '../baseComponents';
-import { useStore } from '../../../store/';
+import { useStore } from '../../store/';
 import { useLocalStorage } from '../../composables/';
 import {PrimaryButton} from "../baseComponents/index.js";
 

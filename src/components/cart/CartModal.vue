@@ -31,7 +31,7 @@
 <script setup>
 import { computed } from 'vue';
 import { BaseModal } from '../baseComponents';
-import { useStore } from '../../../store/';
+import { useStore } from '../../store/';
 import { PrimaryButton, SecondaryButton } from '../baseComponents';
 import CartItem from './CartItem.vue';
 

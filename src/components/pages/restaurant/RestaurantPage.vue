@@ -31,7 +31,7 @@
 <script setup>
 import { computed, ref, onBeforeMount } from 'vue';
 import { useRoute } from 'vue-router'
-import { useStore } from '../../../../store';
+import { useStore } from '../../../store';
 import { ProductsList } from './products';
 
 const store = useStore();

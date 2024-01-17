@@ -25,7 +25,7 @@
 
 <script setup>
 import { defineProps } from 'vue';
-import { useStore } from '../../../../../store';
+import { useStore } from '../../../../store';
 import { PrimaryButton } from '../../../baseComponents';
 
 const store = useStore();

@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import './styles/style.css';
-import './styles/normalize.css';
+import './assets/styles/style.css';
+import './assets/styles/normalize.css';
 import { Header, MainContent, Footer } from './components';
 </script>

@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-import { useStore } from '../../../store/';
+import { useStore } from '../../store/';
 
 const props = defineProps({
   product: {

@@ -37,7 +37,7 @@
 </template>
 
 <script setup>
-import { useStore } from '../../store';
+import { useStore } from '../store';
 import { useLocalStorage } from '../composables';
 import { PrimaryButton, SecondaryButton } from './baseComponents';
 

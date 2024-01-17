@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import { HomePage, RestaurantPage } from '../src/components/pages';
+import { HomePage, RestaurantPage } from '../components/pages/index.js';
 
 export const router = createRouter({
     history: createWebHistory(),

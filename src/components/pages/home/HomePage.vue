@@ -18,7 +18,7 @@
 <script setup>
 import { computed, ref, onBeforeMount } from 'vue';
 import { PromoBanner } from '../../banner'
-import { useStore } from '../../../../store';
+import { useStore } from '../../../store';
 import { SearchInput } from '../../baseComponents';
 import { RestaurantsList } from './restaurants';
 
