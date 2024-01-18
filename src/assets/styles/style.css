@@ -173,6 +173,30 @@ button {
     margin-bottom: 56px;
 }
 
+.info-block {
+    display: flex;
+}
+.sort-block {
+    justify-content: flex-end;
+}
+.sort {
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #8c8c8c;
+    line-height: 24px;
+    padding: 4px 4px 4px 4px;
+    background-repeat: no-repeat;
+    background-position: left 11px center;
+    outline: none;
+}
+.sort-text {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #8c8c8c;
+}
+
 .pizza {
     background: #fff1b8 url(../img/promo/pizza.png) no-repeat top -100px right -250px / 830px
 }
