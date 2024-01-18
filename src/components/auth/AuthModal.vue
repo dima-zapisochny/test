@@ -53,8 +53,6 @@ const closeModal = () => store.isAuthOpen = false;
 const onCancel = () => closeModal();
 const onSubmit = () => {
   if (username.value && password.value) {
-    console.log(store.isLoggedIn);
-
     store.isLoggedIn = true;
 
     storage.setItem({ username: username.value });

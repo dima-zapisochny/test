@@ -3,6 +3,7 @@ import { defineStore } from 'pinia';
 export const useStore = defineStore('shopStore', {
     state: () => ({
         restaurants: [],
+        isRestaurantsLoaded: false,
         cart: [],
         restaurant: {},
         isCartOpen: false,
@@ -23,10 +24,12 @@ export const useStore = defineStore('shopStore', {
                     this.restaurants.push({ ...restaurant, products });
                 })
             );
+
+            this.isRestaurantsLoaded = true;
         },
 
         async fetchRestaurantProducts(products) {
-            const response = await fetch(`db/${products}`);
+            const response = await fetch(`../db/${products}`);
             return await response.json();
         },
 

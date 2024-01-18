@@ -16,15 +16,13 @@
 </template>
 
 <script setup>
-import { computed, ref, onBeforeMount } from 'vue';
+import { computed, ref } from 'vue';
 import { PromoBanner } from '../../banner'
 import { useStore } from '../../../store';
 import { SearchInput } from '../../baseComponents';
 import { RestaurantsList } from './restaurants';
 
 const store = useStore();
-
-onBeforeMount(async () => await store.fetchRestaurants());
 
 const search = ref('');
 
